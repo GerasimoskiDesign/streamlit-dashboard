@@ -1,0 +1,37 @@
+# Demo users for the dashboard. Hashes are bcrypt (cost 12) of the DEMO passwords listed
+# in the README - they protect nothing real. Production would use the company SSO instead.
+#
+# role: regional_manager | shop_manager | employee
+# region: required for shop_manager and employee
+# shop_id: required for employee
+
+[users.regional]
+display_name = "Regional Manager (all regions)"
+role = "regional_manager"
+password_hash = "$2b$12$ko6j.9glB.VQqZ5.xY7Tsu6j3U15U2az6tfwAT433KdNht7lPiY/u"
+
+[users."north.manager"]
+display_name = "Shop Manager, North"
+role = "shop_manager"
+region = "North"
+password_hash = "$2b$12$lDrWBgpQTDmLVI0a4VH0r.x9kisnkwoc46E.I./luUB1YRI2DdVuu"
+
+[users."east.manager"]
+display_name = "Shop Manager, East"
+role = "shop_manager"
+region = "East"
+password_hash = "$2b$12$P2S8eqFlBu9JV7d3Up30OOdN/CbyOGS8o6luRtKNZgq9x7UssxsiW"
+
+[users."northgate.employee"]
+display_name = "Employee, Northgate"
+role = "employee"
+region = "North"
+shop_id = "SH01"
+password_hash = "$2b$12$aW/gdCziBkdsFETNKy2Rxu1x1IX9nTqVzMYHN17dwxPUBBMRCFV6e"
+
+[users."unionsquare.employee"]
+display_name = "Employee, Union Square"
+role = "employee"
+region = "West"
+shop_id = "SH25"
+password_hash = "$2b$12$QI65R0Tvmfr7aHVr40Uei.5TVR1u7TaO9ke/.YDAdwvxoeqLrYchq"
