@@ -179,7 +179,7 @@ Settings come from environment variables or a local `.env` (see [.env.example](.
 
 Point a new Community Cloud app at this repo with `streamlit_app.py` as the entry file. `requirements.txt` installs the package; on first start the wrapper runs the generator and the engine once into a temp folder, then serves the normal dashboard (the dashboard still only reads Parquet).
 
-Live demo: TODO(Mario): live demo link
+Live demo: coming soon.
 
 ## Project structure
 
