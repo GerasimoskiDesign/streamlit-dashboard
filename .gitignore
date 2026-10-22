@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets / local config
+.env
+
+# Generated data and outputs (regenerate with `python -m salesreport generate` / `build`)
+data/daily/
+data/master/
+data/manual_count/
+output/
+
+# Working notes
+PLAN.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*.xlsx

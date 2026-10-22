@@ -1,0 +1,3 @@
+# Used by hosted deployments (e.g. Streamlit Community Cloud): installs this package
+# and its dependencies from pyproject.toml. Locally, use `pip install -e ".[dev]"`.
+.
