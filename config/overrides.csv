@@ -1,0 +1,2 @@
+date,source,files,reason
+09.09.2026,store_contracts,store_contracts_09.09.2026.xlsx;store_contracts_09.09.2026_reexport.xlsx,"First export stopped early; a partial re-export covers the rest of the day. Use both files; overlapping rows collapse under rule 1."
